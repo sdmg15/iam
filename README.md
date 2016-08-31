@@ -5,19 +5,22 @@ Authored by *sdmg15*
 
 *Intentions*
 ------------
-This command helps new members or former members of a slack team to present themselves to others. I designed this command because in my team i seen that there were to much recurrence. It means that when a new user was comming, we all rushed to ask him his, name,his jobs, which techs does he use.... Only think if the team has more than ten or hundred  members ? This will become too hard to know who is who! So i create this command to remedy this problem.
+This command helps new members or former members of a slack team to present themselves to others. I designed this command because in my team I saw that there was too much recurrence. It means that when a new user was coming, those who are connected that rushed to ask the new member his jobs, which techs does he use.... And maybe morrow or later others members which were not connected that day  are today connected, what they will do is to try getting information about new users during their absent. They will ping the new user and ask him information that he has already given and maybe he will be fed up. This will become too hard to know who is who! So I created this command to remedy this problem.
 
 *Usage*
-------
-The usage of the command is very straightfoward.
+---------
+The usage of the command is very straightforward.
+Here is list of available options for the command : 
+- ``/iam``  without any option, this will display the guides line of the command in order to present the usage of the command . 
+- ``/iam show [username] `` with the option ``show`` followed by the name of the user whose you want to see the introduction. 
+- ``/iam create [my_intro] `` Well you are new ? Creating  new introduction is very simple. You just have to seize ``/iam`` with the option ``create`` and follow this by the introduction text and then press ``Enter`` when you finished.
+- ``/iam edit [new_intro] `` Maybe while creating your introduction you made mistakes ? Ok, no problems this is the command you need. This includes the option ``edit`` directly followed by the new presentation text.
 
-The user just has to type  ``/iam create [presentation_text]`` to present himself to others.
+*Resource*
+----------
 
-Or maybe there was an mistake during creating the presentation ? Don't be worried just use
+Slack API documentation. To view visit https://www.api.slack.com/slash-commands.
 
-``/iam edit [new_introduction]`` and when you have finished type the button ```Enter``` on your keyboard.
 
-In order to view the presentation of a specific user you just have to type ```/iam show [user] ``.
-
-For viewing this guide the user should only type ``/iam`` without any options.
-
+*Enjoy it!*
+-----------
