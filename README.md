@@ -5,7 +5,7 @@ Authored by *sdmg15*
 
 *Intentions*
 ------------
-This command helps new members or former members of a slack team to present themselves to others. I designed this command because in my team I saw that there was too much recurrence. It means that when a new user was coming, those who are connected that rushed to ask the new member his jobs, which techs does he use.... And maybe morrow or later others members which were not connected that day  are today connected, what they will do is to try getting information about new users during their absent. They will ping the new user and ask him information that he has already given and maybe he will be fed up. This will become too hard to know who is who! So I created this command to remedy this problem.
+This command helps new members or former members of a slack team to present themselves to others. I designed this command because in my team I saw that there was too much recurrence. It means that when a new user was coming, those who are connected that day rushed to ask the new member his jobs, which techs does he use.... And maybe morrow or later others members which were not connected that day  are today connected, what they will do is to try getting information about new users during their absent. They will ping the new user and ask him information that he has already given and maybe he will be fed up. This will become too hard to know who is who! So I created this command to remedy this problem.
 
 *Usage*
 ---------
