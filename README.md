@@ -9,8 +9,12 @@ This command helps new members or former members of a slack team to present them
 
 *Usage*
 ---------
-The usage of the command is very straightforward.
-Here is list of available options for the command : 
+The usage of the command is very straightforward. 
+First, you have to fork or clone the source code and then you can deploy it either on Heroku or on Openshift.
+After deploying visit https://api.slack.com/custom-integrations and then click on ``New /command `` located on the right menu. 
+In the field to choose the name of the command, write down ``/iam`` and click on the button. After choosed the name, you will be redirected to another page, On that page look for the input field named ``URL`` and fill it with the url you received when you deploy the app on Heroku or Openshift. Always on the same page, look for the input field named ``Token`` and copy the token of your team contained on that input and then go in the file ``index.php`` on line ``13`` and replace the ``TOKEN_OF_YOUR_TEAM`` by the copied token.
+If you have done all these steps, now you can check for the list of available options for the command.
+Here is the list of available options for the command : 
 - ``/iam``  without any option, this will display the guides line of the command in order to present the usage of the command . 
 - ``/iam show [username] `` with the option ``show`` followed by the name of the user whose you want to see the introduction. 
 - ``/iam create [my_intro] `` Well you are new ? Creating  new introduction is very simple. You just have to seize ``/iam`` with the option ``create`` and follow this by the introduction text and then press ``Enter`` when you finished.
