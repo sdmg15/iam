@@ -45,12 +45,16 @@
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>Usage</em>
 </h2>
 
-<p>The usage of the command is very straightforward.
-Here is list of available options for the command : </p>
+<p>The usage of the command is very straightforward. 
+First, you have to fork or clone the source code and then you can deploy it either on Heroku or on Openshift.
+After deploying visit <a href="https://api.slack.com/custom-integrations">https://api.slack.com/custom-integrations</a> and then click on <code>New /command</code> located on the right menu. 
+In the field to choose the name of the command, write down <code>/iam</code> and click on the button. After chose the name, you will be redirected to another page, On that page look for the input field named <code>URL</code> and fill it with the URL you received when you deploy the app on Heroku or Openshift. Always on the same page, look for the input field named <code>Token</code> and copy the token of your team contained on that input and then go in the file <code>index.php</code> on line <code>13</code> and replace the <code>TOKEN_OF_YOUR_TEAM</code> by the copied token.
+If you have done all these steps, now you can check for the list of available options for the command.
+Here is the list of available options for the command : </p>
 
 <ul>
 <li>
-<code>/iam</code>  without any option, this will display the guides line of the command in order to present the usage of the command . </li>
+<code>/iam</code>  without any option, this will display the guides line of the command in order to present the usage of the command. </li>
 <li>
 <code>/iam show [username]</code> with the option <code>show</code> followed by the name of the user whose you want to see the introduction. </li>
 <li>
@@ -65,7 +69,9 @@ Here is list of available options for the command : </p>
 
 <p>Slack API documentation. To view visit <a href="https://www.api.slack.com/slash-commands">https://www.api.slack.com/slash-commands</a>.</p>
 
-<p><strong>Enjoy it</strong></p>
+<h2>
+<a id="enjoy-it" class="anchor" href="#enjoy-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>Enjoy it!</em>
+</h2>
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
