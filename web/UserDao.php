@@ -85,11 +85,7 @@ public function __construct(){
     $req->execute();
     $datas = $req->fetch();
 
-      if($datas['presentation']){
-        return true;
-      }else{
-        return false;
-      }
+      return (bool) $datas['presentation'];
   }
 
 }
