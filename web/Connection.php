@@ -1,5 +1,5 @@
 <?php
-
+Namespace Iam;
 /**
 	@classname : Connection
 	@author: Sonkeng Maldini(sdmg15)
