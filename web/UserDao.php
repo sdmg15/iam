@@ -1,5 +1,5 @@
 <?php
-
+Namespace Iam; 
 /**
 	@classname : UserDao
 	@author: Sonkeng Maldini(sdmg15)
