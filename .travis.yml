@@ -12,10 +12,7 @@ matrix:
  
 before_script:
     - composer self-update
-    - composer install
- 
-script:
-    - phpunit
+    - composer install 
  
 notifications:
     email: false
