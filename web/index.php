@@ -35,7 +35,7 @@ if(isset($_GET['token'])  && $_GET['token'] == "TOKEN_FROM_YOUR_TEAM")
      else{
 
         echo '*IamBot Version dof_init.1* by sdmg15'.PHP_EOL;
-        echo 'This command helps you to see introduction of other members. To do that, type `/iam show @username` and then press Enter.'.PHP_EOL;
+        echo 'This command helps you to see introduction of other members. To do so, type `/iam show @username` and then press Enter.'.PHP_EOL;
         echo 'You can also create your own introduction by typing `/iam create [introduction_text]` and then hit enter if you leave it empty  it will show this guide.'.PHP_EOL;
         echo 'May be while creating your introduction you made a mistake? Ok just type `/iam edit [new_introduction]`.'.PHP_EOL;
   

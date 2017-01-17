@@ -9,7 +9,7 @@ Namespace Iam;
 
 class UserDao extends Connection{
 
-const HOST = 'myFavaouriteHOst';
+const HOST = 'myFavoriteHost';
 const DNAME = 'iam';
 const USER = 'root';
 const PW = '';
