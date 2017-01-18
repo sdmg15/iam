@@ -7,3 +7,10 @@ php:
   - '7.1'
   - hhvm
   - nightly
+
+before_script::
+  - composer self-update
+  
+script:
+  - composer install
+  - composer update
