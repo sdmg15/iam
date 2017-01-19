@@ -1,5 +1,38 @@
 {
+    "name": "sdmg15/iambot",
+    "description": "Helps members to present themselves",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Sonkeng Maldini",
+            "email": "sonkengmaldini@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "phpunit/phpunit": "^5.7"
+    },
     "autoload": {
-        "psr-4": {"Iam\\": "web/"}
-    }
+        "psr-4": {
+          "IamBot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-install-cmd": [
+            "composer dumpautoload -o"
+        ],
+        "post-update-cmd": [
+            "composer dumpautoload -o"
+        ]
+      },
+    "minimum-stability": "dev"
 }

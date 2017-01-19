@@ -1,6 +1,8 @@
 __IamBot__ Version dof_init.1 
 ----------
 
+[![Build Status](https://travis-ci.org/JoseCage/iam.svg?branch=master)](https://travis-ci.org/JoseCage/iam)
+
 Authored by *sdmg15*
 
 *Intentions*
